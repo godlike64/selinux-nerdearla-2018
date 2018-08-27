@@ -7,23 +7,21 @@ Hay dos maneras de hacer este workshop:
 
 ### Vagrant
 
-Hay entornos de Vagrant preparados. Teniendo Vagrant instalado y configurado en tu PC/Laptop/Cafetera:
+1. Hay entornos de Vagrant preparados. Teniendo Vagrant instalado y configurado en tu PC/Laptop/Cafetera:
+    
+        $ mkdir selinux-workshop
+        $ cd selinux-workshop
+        $ wget https://www.vicarious.com.ar/selinux/Vagrantfile
+        $ vagrant up
+    
 
-~~~
-$ mkdir selinux-workshop
-$ cd selinux-workshop
-$ wget https://www.vicarious.com.ar/selinux/Vagrantfile
-$ vagrant up
-~~~
-
-Listo! Eso deja una VM de Vagrant con todo configurado para el workshop. Para loguearse, simplemente:
-
-~~~
-$ vagrant ssh
-[...]
-[vagrant@c75 ~]$ sudo su -
-~~~
-
+2. Listo! Eso deja una VM de Vagrant con todo configurado para el workshop. Para loguearse, simplemente:
+    
+        $ vagrant ssh
+        [...]
+        [vagrant@c75 ~]$ sudo su -
+    
+3. Asistir al workshop en Nerdearla 2018 :D
 ### A mano
 
 Si no tenés Vagrant, o desconfiás del box, o simplemente querés instalar a mano, los pasos a seguir son:
@@ -43,4 +41,5 @@ Si no tenés Vagrant, o desconfiás del box, o simplemente querés instalar a ma
         # mv ~/selinux-nerdearla-2018/bin ~/
         # mv ~/selinux-nerdearla-2018/conf ~/
     
-6. 
+6. Listo!
+7. Asistir al workshop en Nerdearla 2018 :D
